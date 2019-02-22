@@ -3,6 +3,7 @@ package com.mertaydar.webbackend.model;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 
@@ -19,6 +20,7 @@ import java.util.Set;
 
 @Data
 @EqualsAndHashCode(callSuper=false)
+@NoArgsConstructor
 @RequiredArgsConstructor
 @Entity
 @Table(name = "users", uniqueConstraints = {
